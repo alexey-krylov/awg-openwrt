@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.05.4"
+          - tag: "23.05.4"
             pkgarch:  arm_arm1176jzf-s_vfp
             target: bcm27xx
             subtarget: bcm2708
