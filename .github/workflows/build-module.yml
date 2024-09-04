@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.4"
-            pkgarch:  arm_arm1176jzf-s_vfp
+          - tag: "SNAPSHOT"
+            pkgarch:  aarch64_cortex-a76
             target: bcm27xx
-            subtarget: bcm2708
-            vermagic: "faa5286150803d38d60f498ebffc5159"
+            subtarget: bcm2712
+            vermagic: "9fcd1b019721fd8be5613708f19d39af-r1"
 
     steps:
       - uses: actions/checkout@v4
