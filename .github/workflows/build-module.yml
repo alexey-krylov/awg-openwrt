@@ -16,7 +16,7 @@ jobs:
             pkgarch:  aarch64_cortex-a76
             target: bcm27xx
             subtarget: bcm2712
-            vermagic: "e8e652e810e6b2b2a5205e52806ee229"
+            vermagic: "9dfed66a4e46981b920bf22fe85b3450"
 
     steps:
       - uses: actions/checkout@v4
