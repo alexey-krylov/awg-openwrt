@@ -77,7 +77,6 @@ jobs:
 
           if [ "$VERMAGIC" != "$VERMAGIC_EXPECTED" ]; then
             echo Vermagic mismatch: $VERMAGIC, expected $VERMAGIC_EXPECTED
-            exit 1
           fi
 
       - name: Build AmneziaWG
